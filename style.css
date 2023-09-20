@@ -6,11 +6,11 @@
 }
 
 header{
-    background-color: #5f27cd;
+    background-color: black;
     padding: 16px 0;
     color: white;
     display: flex;
-    border-bottom: 16px solid #341f97;
+    border-bottom: 16px solid rgb(255, 105, 180);
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
@@ -36,12 +36,13 @@ input, button{
 }
 
 button{
-    background-color: #009432;
+    background-color: rgb(3, 152, 179);
     border: none;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
+    border-radius: 10px;
 }
 
 #botao-cancelar{
